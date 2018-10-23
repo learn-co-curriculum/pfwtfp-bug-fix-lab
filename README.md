@@ -7,9 +7,10 @@ While it might _feel_ basic, focusing here has a force-multiplying effect.
 Improvements here magnify through every second of your time programming.
 
 It's similar to martial arts, dancing, or practicing an instrument. The master
-of Tai Chi is known by a perfect, centered horse stance. A master of tango can
-be seen by how they take a single step _walking_. Master guitar players play
-their _basic_ chords cleanly so that the tones ring clearly.
+of [Tai Chi][] is known by a perfect, centered [horse stance][]. A master of
+[tango][] can be seen by how they take a single step _walking_. Master guitar
+players play their _basic_ chords cleanly so that the [tones ring
+clearly][paco].
 
 Programmers constantly make the investment in continually improving their
 fundamentals. This module will guide you through your (re-)consideration of
@@ -85,3 +86,7 @@ In the next lesson, we're going to ask you to fill out a survey so that you can
 track your improvement.  We'll _also_ provide you our fix.
 
 [formula]: https://www.calcunation.com/calculator/mortgage-total-cost.php
+[Tai Chi]: https://en.wikipedia.org/wiki/Tai_chi
+[horse stance]: http://taichibasics.com/tai-chi-stances/
+[tango]: https://www.youtube.com/watch?v=bXhQNRsH3uc
+[paco]: https://www.pri.org/stories/2012-04-23/video-flamenco-music-legend-paco-de-luc
