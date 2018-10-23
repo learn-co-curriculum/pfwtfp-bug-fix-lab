@@ -20,12 +20,13 @@ marvel at how you and your process have improved.
 ## A Basic Problem
 
 For centuries now, banks have made mortgages available to the public so that
-they can buy real estate. While mortgages have evolved a lot, the fundamental idea is
-that for a long time, you'll pay interest on the amount you owe the bank. After
-you have made all your payments, the bank will have received back their
-original amount _but will also_ have all the money you paid in interest. How
-much is that original amount _plus_ the total of all interest payments? How
-much is the "total cost" of the loan?
+they can buy real estate. While mortgages have evolved a lot, the fundamental
+idea is that for a long time, you'll pay interest on the amount you owe the
+bank (the original cost of the property). After you have made _all_ your
+payments, the bank will have received back their original amount _but will
+also_ have all the money you paid in interest. How much is that original
+property cost _plus_ the total of all interest payments? How much is the "total
+cost" of the loan?
 
 Computers are great at calculating things like this. Let's use a Ruby class to
 tell us the answer.
@@ -35,6 +36,12 @@ tell us the answer.
 We [found a formula][formula] on the internet and decided to code it into Ruby.
 
 ![Formula for mortgage total cost](https://curriculum-content.s3.amazonaws.com/pfwtfp/pfwtfp-bug-fix/mortgage_formula.png)
+
+|Letter|Meaning                       |
+|------|------------------------------|
+|r     |Monthly Interest Rate         |
+|P     |Principal Amount on the Loan  |
+|N     |Total # of Months for the loan|
 
 _Source: https://www.calcunation.com/calculator/mortgage-total-cost.php_
 
@@ -74,11 +81,12 @@ that the answer _they_ have is closer to $293,492.22. We have a bug.
 
 Most professional programmers spend the majority of their time editing and
 maintaining code written by other people. As a result, take this broken code
-and make it work. The result of $293,492.22 is right.
+and make it work. The result of $293,492.22 is right (don't worry about
+trailing factions of cents).
 
 Since we're focusing on our fundamentals, keep track of how long this debugging
-takes.  Don't let this number stress you out: to improve, we need to know
-where we're struggling.
+takes.  Don't let this time stress you out: to improve, we need to know where
+we're struggling.
 
 ## Next Steps
 
