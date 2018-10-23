@@ -47,6 +47,9 @@ _Source: https://www.calcunation.com/calculator/mortgage-total-cost.php_
 
 ## Code
 
+Run this code in IRB or inside from a file. The `TotalCostCalculator` will give
+you the cost to finance $250,000 at 6.5% for 5 years.
+
 ```ruby
 class TotalCostCalculator
   attr_reader :description, :cost
@@ -69,7 +72,7 @@ puts calc.total_loan_cost
 
 ## Result
 
-To finance a $250,000 island paradise, it will cost: $97,500,000.00.
+To finance this property, it will cost: $97,500,000.00.
 
 No wonder banks love mortgages so much! To finance my dream-house it will cost
 nearly 400 times the cost of the property!
