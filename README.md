@@ -33,6 +33,10 @@ tell us the answer.
 
 We [found a formula][formula] on the internet and decided to code it into Ruby.
 
+![Formula for mortgage total cost](https://curriculum-content.s3.amazonaws.com/pfwtfp/pfwtfp-bug-fix/mortgage_formula.png)
+
+_Source: https://www.calcunation.com/calculator/mortgage-total-cost.php_
+
 ## Code
 
 ```ruby
@@ -63,13 +67,13 @@ No wonder banks love mortgages so much! To finance my dream-house it will cost
 nearly 400 times the cost of the property!
 
 Wait. Does that seem _reasonable_? Using the [calculator site][formula] we see
-that the answer _they_ have is closer to $568,861.22. We have a bug.
+that the answer _they_ have is closer to $293,492.22. We have a bug.
 
 ## Fix It
 
 Most professional programmers spend the majority of their time editing and
 maintaining code written by other people. As a result, take this broken code
-and make it work. The result of $568,861.22 is right.
+and make it work. The result of $293,492.22 is right.
 
 Since we're focusing on our fundamentals, keep track of how long this debugging
 takes.  Don't let this number stress you out: to improve, we need to know
